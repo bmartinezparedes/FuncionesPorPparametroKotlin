@@ -5,4 +5,9 @@ fun main(args: Array<String>) {
 
     //Ejercicio2
     println(Ejercicio1(10){ Random.nextInt(50,250)}.tablaSiete.contentToString())
+
+    //Ejercicio3
+    Filtro().sinPares(Ejercicio1(10){ Random.nextInt(50,250)}.tablaSiete)
+
+    println("Me costó pero lo conseguí")
 }
